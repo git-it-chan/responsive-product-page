@@ -29,5 +29,15 @@ img {
   max-width: 100%;
 }
 
+@media (min-width: 768px) {
 
+grid-template-columns: repeat(2, 1fr);
+
+  }
+
+@media (min-width: 960px) {
+
+    grid-template-columns: repeat(4, 1fr);
+    
+  }
 
